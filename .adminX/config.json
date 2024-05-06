@@ -10,34 +10,39 @@
     "src/config"
   ],
   "arrangement": {
+    "src/content/homepage/_index.md": {
+      "Homepage": {
+        "weight": 0
+      }
+    },
     "Blog": {
       "type": "heading",
-      "weight": 0
+      "weight": 1
     },
     "src/content/blog/_index.md": {
       "Blog Index": {
-        "weight": 1
+        "weight": 2
       }
     },
     "src/content/blog": {
       "Blogs": {
-        "weight": 2,
+        "weight": 3,
         "include": "",
         "exclude": "_index.md"
       }
     },
     "Author": {
       "type": "heading",
-      "weight": 3
+      "weight": 4
     },
     "src/content/authors/_index.md": {
       "Author Index": {
-        "weight": 4
+        "weight": 5
       }
     },
     "src/content/authors": {
       "Posts": {
-        "weight": 5,
+        "weight": 6,
         "include": "",
         "exclude": "_index.md"
       }
