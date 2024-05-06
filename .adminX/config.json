@@ -9,5 +9,31 @@
   "themeConfig": [
     "src/config"
   ],
-  "arrangement": {}
+  "arrangement": {
+    "Blog": {
+      "type": "heading",
+      "weight": 0
+    },
+    "src/content/blog/_index.md": {
+      "Blog Index": {
+        "weight": 1
+      }
+    },
+    "src/content/blog": {
+      "Blogs": {
+        "weight": 2,
+        "include": "",
+        "exclude": "_index.md"
+      }
+    },
+    "Author": {
+      "type": "heading",
+      "weight": 3
+    },
+    "src/content/authors/_index.md": {
+      "Author Index": {
+        "weight": 4
+      }
+    }
+  }
 }
