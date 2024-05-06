@@ -9,5 +9,10 @@
   "themeConfig": [
     "src/config"
   ],
-  "arrangement": {}
+  "arrangement": {
+    "Blog": {
+      "type": "heading",
+      "weight": 0
+    }
+  }
 }
