@@ -52,7 +52,7 @@
       "weight": 7
     },
     "src/content/pages": {
-      "Regular Pages": {
+      "Pages": {
         "weight": 8,
         "include": "",
         "exclude": ""
