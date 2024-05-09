@@ -46,6 +46,17 @@
         "include": "",
         "exclude": "_index.md"
       }
+    },
+    "Others Page": {
+      "type": "heading",
+      "weight": 7
+    },
+    "src/content/pages": {
+      "Regular Pages": {
+        "weight": 8,
+        "include": "",
+        "exclude": ""
+      }
     }
   }
 }
