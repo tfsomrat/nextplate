@@ -1,15 +1,15 @@
 ---
 title: How to build an Application with modern Technology
-date: '2022-04-04T05:00:00.000Z'
+date: 2022-04-04 05:00:00 Z
 meta_title: ''
 description: this is meta description
-image: /images/image-placeholder.png
+image: "/images/image-placeholder.png"
 categories:
-  - Architecture
+- Architecture
 author: John Doe
 tags:
-  - silicon
-  - technology
+- silicon
+- technology
 draft: false
 ---
 
