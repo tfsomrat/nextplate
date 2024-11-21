@@ -9,5 +9,11 @@
   "themeConfig": [
     "src/config"
   ],
-  "arrangement": {}
+  "arrangement": {
+    "src/content/about/_index.md": {
+      "inex": {
+        "weight": 0
+      }
+    }
+  }
 }
