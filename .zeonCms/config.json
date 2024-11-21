@@ -9,11 +9,11 @@
   "themeConfig": [
     "src/config"
   ],
-  "arrangement": {
-    "src/content/about/_index.md": {
-      "inex": {
-        "weight": 0
-      }
+  "arrangement": [
+    {
+      "type": "file",
+      "targetPath": "src/content/about/_index.md",
+      "groupName": "inex"
     }
-  }
+  ]
 }
