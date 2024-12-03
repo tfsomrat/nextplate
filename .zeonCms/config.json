@@ -9,12 +9,6 @@
   "themeConfig": [
     "src/config"
   ],
-  "arrangement": [
-    {
-      "type": "file",
-      "targetPath": "src/content/about/_index.md",
-      "groupName": "index"
-    }
-  ],
+  "arrangement": [],
   "showCommitModal": false
 }
