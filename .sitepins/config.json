@@ -1,7 +1,7 @@
 {
   "media": {
     "root": "public/images",
-    "public": "public"
+    "public": "public/"
   },
   "content": {
     "root": "src/content"
@@ -10,5 +10,5 @@
     "src/config"
   ],
   "arrangement": [],
-  "showCommitModal": false
+  "showCommitModal": true
 }
