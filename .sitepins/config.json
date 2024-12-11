@@ -7,7 +7,7 @@
     "root": "src/content"
   },
   "themeConfig": [
-    "src/config/config.json"
+    "src/config"
   ],
   "arrangement": [],
   "showCommitModal": true
