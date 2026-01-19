@@ -7,11 +7,10 @@
     "root": "src/content"
   },
   "code": {
-    "root": "src/layouts"
+    "root": "src"
   },
   "themeConfig": [
     "src/config"
   ],
-  "arrangement": [],
-  "showCommitModal": true
+  "arrangement": []
 }
