@@ -6,7 +6,10 @@ This skill explains how to manage content collections within this Next.js templa
 
 Content is primarily driven by Markdown (`.md`) and MDX (`.mdx`) files located in the `src/content/` directory.
 
-**Important for AI Agents:** The exact collections (folders) may vary depending on how this template was customized. **You should always list the contents of the `src/content/` directory to discover what collections (e.g., `blog`, `pages`, `authors`, `products`) are available in the current project.**
+> [!IMPORTANT]
+> **Content Verification Required:** Because this skill is used across multiple templates, the collections and frontmatter schemas listed below are **JUST EXAMPLES**. Collections may be missing, renamed, or have different required fields depending on the specific template. **You MUST ALWAYS verify the available collections by listing the contents of `src/content/` and inspect existing markdown files to understand the actual frontmatter schema before creating or editing content.**
+
+## Example Content Structure (Verify Before Use)
 
 Common examples often found here include:
 - **Blog Posts**: `src/content/blog/`

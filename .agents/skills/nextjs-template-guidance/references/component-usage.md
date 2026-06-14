@@ -8,11 +8,12 @@ Components are grouped into two primary folders within `src/layouts/`:
 1. **`src/layouts/components/`**: Smaller, reusable UI elements.
 2. **`src/layouts/partials/`**: Larger page sections or layout wrappers.
 
-**Important for AI Agents:** The exact components available may vary. **Always list the contents of `src/layouts/components/` and `src/layouts/partials/` to discover what components exist in the current project.**
+> [!IMPORTANT]
+> **Component Verification Required:** Because this skill is used across multiple templates, the components listed below are **JUST EXAMPLES**. Components may be missing, renamed, or structured differently depending on the specific template you are working with. **You MUST ALWAYS verify component existence and read their actual implementation by checking `src/layouts/components/` and `src/layouts/partials/` before attempting to use or modify them.**
 
-Common examples often found here include:
+## Example Components (Verify Before Use)
 
-## Key Components
+The following are common examples you *might* find in the template:
 
 ### `<BlogCard />`
 Located in `src/layouts/components/BlogCard.tsx`.
@@ -46,3 +47,4 @@ When extending components:
 
 - **DO NOT** embed heavy data fetching logic directly inside atomic components (like `BlogCard`). Pass data down from Server Components (pages) to keep the UI components pure.
 - **DO NOT** hardcode generic values like the site name into components. They should always pull from `config.json` or props.
+- **DO NOT** assume a component exists just because it is listed in this document. Always verify its existence in the codebase before using it.

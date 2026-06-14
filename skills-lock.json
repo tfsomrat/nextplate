@@ -12,6 +12,12 @@
       "sourceType": "github",
       "skillPath": "skills/next-best-practices/SKILL.md",
       "computedHash": "f4678aef4ffc10a5ea64a91e57abe5a5081af813b06d58d565caf3e8ef56e26c"
+    },
+    "nextjs-template-guidance": {
+      "source": "zeon-studio/template-skills",
+      "sourceType": "github",
+      "skillPath": "skills/nextjs-template-guidance/SKILL.md",
+      "computedHash": "0547a4e39f2ac83e1a15f7662f5b2ea4ddad8288c252e3ce93de55baa4f38d98"
     }
   }
 }
